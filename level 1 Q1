@@ -20,7 +20,7 @@ while True:
         negative_sum += num
         negative_count += 1
 
-# Calculate averages
+
 if positive_count > 0:
     avg_positive = positive_sum / positive_count
 else:
