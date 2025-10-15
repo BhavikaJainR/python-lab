@@ -1,14 +1,11 @@
 import statistics
 
-# input list
 data = [12, 45, 83, 52]
 
-# calculate mean, median, and mode
 mean = statistics.mean(data)
 median = statistics.median(data)
 mode = statistics.mode(data)
 
-# average of mean, median, and mode
 average = (mean + median + mode) / 3
 
 print("Average of Mean, Median, and Mode:", int(average))
