@@ -2,7 +2,6 @@
 
 array = [1, 2, 3, 4, 1]
 
-# remove duplicates using set
 unique_array = list(set(array))
 
 print("duplicate array =", unique_array)
