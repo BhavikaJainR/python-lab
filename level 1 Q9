@@ -1,0 +1,8 @@
+# Program to sort array in non-increasing order
+
+arr = [1, 8, 3, 4, 0]
+
+# sort in descending order
+arr.sort(reverse=True)
+
+print("Sorted array in non-increasing order:", arr)
