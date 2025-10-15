@@ -1,12 +1,8 @@
 # Program to find square and cube of a decimal number
 
-# input from user
 num = float(input("Given Number: "))
-
-# calculating square and cube
 square = num ** 2
 cube = num ** 3
 
-# display the result
 print("Square Number:", square)
 print("Cube Number:", cube)
